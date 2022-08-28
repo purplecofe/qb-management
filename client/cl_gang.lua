@@ -5,7 +5,7 @@ local shownGangMenu = false
 -- UTIL
 local function CloseMenuFullGang()
     exports['qb-menu']:closeMenu()
-    exports['qb-core']:HideText()
+    exports['ps-ui']:HideText()
     shownGangMenu = false
 end
 
@@ -315,11 +315,11 @@ CreateThread(function()
                                 if #(pos - coords) <= 1.5 then
                                     nearGangmenu = true
                                     if not shownGangMenu then
-                                        exports['qb-core']:DrawText('[E] Open Gang Management', 'left')
+                                        exports['ps-ui']:DisplayText('[E] Open Gang Management', 'primary')
                                     end
 
                                     if IsControlJustReleased(0, 38) then
-                                        exports['qb-core']:HideText()
+                                        exports['ps-ui']:HideText()
                                         TriggerEvent("qb-gangmenu:client:OpenMenu")
                                     end
                                 end
