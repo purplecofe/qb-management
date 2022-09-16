@@ -75,30 +75,30 @@ RegisterNetEvent('qb-bossmenu:client:OpenMenu', function()
                 event = "qb-bossmenu:client:HireMenu",
             }
         },
-        {
-            header = "Storage Access",
-            txt = "Open Storage",
-            icon = "fa-solid fa-box-open",
-            params = {
-                event = "qb-bossmenu:client:Stash",
-            }
-        },
-        {
-            header = "Outfits",
-            txt = "See Saved Outfits",
-            icon = "fa-solid fa-shirt",
-            params = {
-                event = "qb-bossmenu:client:Wardrobe",
-            }
-        },
-        {
-            header = "Money Management",
-            txt = "Check your Company Balance",
-            icon = "fa-solid fa-sack-dollar",
-            params = {
-                event = "qb-bossmenu:client:SocietyMenu",
-            }
-        },
+        -- {
+        --     header = "Storage Access",
+        --     txt = "Open Storage",
+        --     icon = "fa-solid fa-box-open",
+        --     params = {
+        --         event = "qb-bossmenu:client:Stash",
+        --     }
+        -- },
+        -- {
+        --     header = "Outfits",
+        --     txt = "See Saved Outfits",
+        --     icon = "fa-solid fa-shirt",
+        --     params = {
+        --         event = "qb-bossmenu:client:Wardrobe",
+        --     }
+        -- },
+        -- {
+        --     header = "Money Management",
+        --     txt = "Check your Company Balance",
+        --     icon = "fa-solid fa-sack-dollar",
+        --     params = {
+        --         event = "qb-bossmenu:client:SocietyMenu",
+        --     }
+        -- },
     }
 
     for _, v in pairs(DynamicMenuItems) do

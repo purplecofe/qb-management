@@ -88,30 +88,30 @@ RegisterNetEvent('qb-gangmenu:client:OpenMenu', function()
                 event = "qb-gangmenu:client:HireMembers",
             }
         },
-        {
-            header = "Storage Access",
-            icon = "fa-solid fa-box-open",
-            txt = "Open Gang Stash",
-            params = {
-                event = "qb-gangmenu:client:Stash",
-            }
-        },
-        {
-            header = "Outfits",
-            txt = "Change Clothes",
-            icon = "fa-solid fa-shirt",
-            params = {
-                event = "qb-gangmenu:client:Warbobe",
-            }
-        },
-        {
-            header = "Money Management",
-            icon = "fa-solid fa-sack-dollar",
-            txt = "Check your Gang Balance",
-            params = {
-                event = "qb-gangmenu:client:SocietyMenu",
-            }
-        },
+        -- {
+        --     header = "Storage Access",
+        --     icon = "fa-solid fa-box-open",
+        --     txt = "Open Gang Stash",
+        --     params = {
+        --         event = "qb-gangmenu:client:Stash",
+        --     }
+        -- },
+        -- {
+        --     header = "Outfits",
+        --     txt = "Change Clothes",
+        --     icon = "fa-solid fa-shirt",
+        --     params = {
+        --         event = "qb-gangmenu:client:Warbobe",
+        --     }
+        -- },
+        -- {
+        --     header = "Money Management",
+        --     icon = "fa-solid fa-sack-dollar",
+        --     txt = "Check your Gang Balance",
+        --     params = {
+        --         event = "qb-gangmenu:client:SocietyMenu",
+        --     }
+        -- },
     }
 
     for _, v in pairs(DynamicMenuItems) do
